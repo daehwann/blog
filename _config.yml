@@ -6,7 +6,7 @@ title:               Daehwan's blog
 tagline:             The Jekyll Butler
 url:                 http://daehwann.github.io
 paginate:            1
-baseurl:             ""
+baseurl:             "/blog"
 
 # Assets
 #
