@@ -3,7 +3,7 @@ permalink:           pretty
 
 # Setup
 title:               Daehwan's blog
-tagline:             The Jekyll Butler
+# tagline:             The Jekyll Butler
 url:                 http://daehwann.github.io
 paginate:            1
 baseurl:             "/blog"
@@ -25,6 +25,7 @@ author:
 version:             2.0.0
 github:
   repo:              https://github.com/daehwann/blog
+disqus:              daehwan-blog
 
 # Gems
 gems:
