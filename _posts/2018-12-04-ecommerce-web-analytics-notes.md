@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Web Analytics Notes for Ecommerce Site
-tags: [google-analytics, ecommerce]
+tags: [googleanalytics, ecommerce]
 ---
 
 ###### Ecommerce 태깅을 수행하면서 기본적인 것들 외에도 생각해보자
