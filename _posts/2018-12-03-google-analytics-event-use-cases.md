@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Google Analytics Event Use Cases
-tags: [google-analytics, event-tracking]
+tags: [googleanalytics, event-tracking]
 ---
 
 ###### 이벤트를 어떻게 정의할지 몰라서 찾아봤다
@@ -11,4 +11,3 @@ Google Analytics 에서 이벤트는 암거나, 지맘대로 수집할 수 있�
 ## Google Marketing [사이트](https://marketingplatform.google.com/intl/ko_ALL/about/)
 
 ![]({{ site.baseurl}}/public/img/ga/2018-12-04-08-11-02.png)
-
