@@ -1,7 +1,7 @@
 ---
 title: Google Analytics Settings Notes
 layout: post
-tags: [googleanalytics, tagging]
+tags: [GoogleAnalytics]
 ---
 
 ###### Google Analytics 를 설정 미리 알아둘 것들 정리

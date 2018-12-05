@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Google Analytics Event Use Cases
-tags: [googleanalytics, event-tracking]
+tags: [GoogleAnalytics, EventTracking]
 ---
 
 ###### 이벤트를 어떻게 정의할지 몰라서 찾아봤다
