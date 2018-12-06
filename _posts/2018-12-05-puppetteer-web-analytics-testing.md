@@ -9,9 +9,13 @@ published: false
 
 ## Puppeteer
 
-- `Puppeteer` communicates with the browser using DevTools Protocol.
-- `Browser` instance can own multiple pages.
+- `Puppeteer` DevTools Protocol을 사용하는 브라우저와 연동된다.
+- `Browser` 여러개의 페이지를 가질 수 있는  owner
+- `Page` 프레임을 갖고 있음
 - `Page` has at least one frame: main frame. There might be other frames created by iframe or frame tags.
+
+- `Frame` 실행할 수 있는 최소 실행 단위. 
+
 - `Frame` has at least one execution context - the default execution context - where the frame's JavaScript is executed. A Frame might have additional execution contexts that are associated with extensions.
 
 ## Scenarios
