@@ -15,3 +15,5 @@ ln -s node_modules.nosync/ node_modules
 ```
 
 ![]({{ site.baseurl }}/public/img/2018-12-07-00-30-31.png)
+
+> *주의* `node_modules.nosync` 를 만들고 `.gitignore` 에 추가를 안해놔서 모듈 전체를 커밋할뻔했다;; 주의해야됨.
