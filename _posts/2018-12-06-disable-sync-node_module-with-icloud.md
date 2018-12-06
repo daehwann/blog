@@ -14,4 +14,4 @@ mv node_modules node_modules.nosync
 ln -s node_modules.nosync/ node_modules
 ```
 
-![](![](2018-12-07-00-30-31.png))
+![]({{ site.baseurl }}/public/img/2018-12-07-00-30-31.png)
