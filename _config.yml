@@ -26,6 +26,7 @@ version:             2.0.0
 github:
   repo:              https://github.com/daehwann/blog
 disqus:              daehwan-blog
+google_analytics:    UA-83903045-5
 
 # Gems
 gems:

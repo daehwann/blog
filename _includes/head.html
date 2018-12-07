@@ -15,4 +15,8 @@
   <link rel="shortcut icon" href="{{ site.baseurl }}/public/favicon.ico">
   <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="{{ site.baseurl }}/atom.xml">
   <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:300,700" rel="stylesheet">
+
+  {% if jekyll.environment == "production" and site.google_analytics %}
+    {% include analytics.html %}
+  {% endif %} 
 </head>
