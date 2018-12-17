@@ -23,15 +23,13 @@ GTM 에서 선언된 `Click URL`, `Click Text`e 등의 변수를 사용하기 �
 
 ### Trigger
 
-```text
-Custom Element matches selector div[onclick*="location.href"] *
-```
+`Custom Element` matches selector `div[onclick*="location.href"] *`
 
 ### Tag
 
 ```html
 <script>
-  var parent = $({{Click Element}}).closest('.home-row,.main-visual');
+  var parent = $({Click Element}).closest('.home-row,.main-visual');
   var link = $(parent).find('a')[0];
   dataLayer.push({
     event: 'gtm.linkClick',
