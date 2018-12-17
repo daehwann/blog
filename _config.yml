@@ -5,7 +5,7 @@ permalink:           pretty
 title:               Daehwan's blog
 # tagline:             The Jekyll Butler
 url:                 http://daehwann.github.io
-paginate:            1
+# paginate:            1
 baseurl:             "/blog"
 
 # Assets
@@ -30,5 +30,6 @@ google_analytics:    UA-83903045-5
 
 # Gems
 gems:
-  - jekyll-paginate
+  # - jekyll-paginate
   - jekyll-gist
+  - jekyll-sitemap
