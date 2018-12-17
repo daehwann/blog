@@ -8,7 +8,10 @@ tags: [Vue, Vuetify, Javascript, Datetime]
 
 52시간 관리 페이지에 Vue 를 사용하여 개선했다.
 
-![]({{site.baseurl}}/public/img/2018-12-14-01-17-37.png)
+![before after]({{site.baseurl}}/public/img/2018-12-14-01-17-37.png)
+
+원래 첫 개선에는 너무 못생겨 보여서 디자인만 바꾸려고 했었는데, 이게 생각보다 큰 작업이었다. 이전에 잠깐 사용했었던 Vue 는 확정했었고, Material 디자인을 적용하기 위한 UI framework 를 찾았는데 Vuematerial 과 Vuetify 가 있었다. Vuematerial 은 적용해보니 CSS 가 너무 장황했다. 왜그런가 했더니 구글에서 가이드한 문서상의 CSS 방식으로 적용한것 같았다. Vuetify 는 그런 CSS 를 재해석했고 보다 쓰기쉽게 interface를 만들었다. 나같은 UI 잼병에게 적합했다. 출퇴근하면서 UI 개선했는데 제일 시간 많이 들었던 것들을 써놨다. 나중에 보고 이렇게 고생하면서 노력했던 초심을 잊지 않길.
+
 
 ## Datetime
 
