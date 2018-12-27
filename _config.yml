@@ -31,5 +31,5 @@ google_analytics:    UA-83903045-5
 # Gems
 gems:
   # - jekyll-paginate
-  - jekyll-gist
+  # - jekyll-gist
   - jekyll-sitemap
