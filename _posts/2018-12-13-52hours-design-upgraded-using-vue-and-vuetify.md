@@ -77,3 +77,7 @@ Material 이 느낌이 그림자가 좋아서 쓰고 있는데 구글이나 다�
 - Timezone `new Date(`${this.date}T${this.startTime}+09:00`)`
 - 부모로 데이터 전달 `@input="$emit('input', time)"`
 - 디자이너는 대단함
+
+### Upcoming Features
+
+{% include_relative _include_52hours-to-do.md %}
