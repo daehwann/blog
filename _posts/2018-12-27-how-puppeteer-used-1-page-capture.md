@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Puppeteer 사용방법 - 1. 페이지 캡쳐
+title: Puppeteer 사용방법 - 1. Screenshot, PDF
 tags: [Puppeteer, PageToPDF, Screenshot]
 ---
 
@@ -60,7 +60,7 @@ puppeteer.launch().then(async browser => {
 
 프로젝트를 하다보면 산출물이 엄청나게 나온다. 매번 Office 문서로 작업하고 History를 위해 날짜별로 파일을 생성해야 한다. 어차피 볼사람만 열어보는 산출물을 효율적으로 관리하기 위해서 웹으로 산출물 문서를 만들고 Puppeteer로 PDF 로 생성하면 좋을것같다.
 
-[Gitbook](https://www.gitbook.com) 이라는 서비스가 있는데 온라인 document 를 아주 깔끔하게 보여준다. Github 과 연동해서 History관리도 정말 좋다. 아쉬우 점은 생성된 문서에 대한 Export를 JSON으로 지원하는데 재사용이 불가능한 정도다. 이럴 때 puppeteer로 생성된 온라인 문서를 PDF 로 저장하면 문서를 생성하는 사람도 완성된 문서를 전달받는 사람도 기분이 좋을것 같다. 
+[Gitbook](https://www.gitbook.com) 이라는 서비스가 있는데 온라인 document 를 아주 깔끔하게 보여준다. Github 과 연동해서 History관리도 정말 좋다. 아쉬운 점은 생성된 문서에 대한 Export를 JSON으로 지원하는데 재사용이 불가능한 정도다. 이럴 때 puppeteer로 생성된 온라인 문서를 PDF 로 저장하면 문서를 생성하는 사람도 완성된 문서를 전달받는 사람도 기분이 좋을것 같다. 
 
 ![원본 페이지]({{site.baseurl}}/public/img/2018-12-27-19-55-23.png "원본 페이지")
 
