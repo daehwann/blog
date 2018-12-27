@@ -1,20 +1,18 @@
-# \_include\_52hours-to-do
 
- Page Design \(Material Design by Vuetify\)
+  <input type="checkbox" disabled checked/> Page Design (Material Design by Vuetify)
 
- Framework \(Vue\)
+  <input type="checkbox" disabled checked/> Framework (Vue)
 
- Calender
+  <input type="checkbox" disabled checked/> Calender
 
- Dashboard
+  <input type="checkbox" disabled /> Dashboard
 
- Summary
+  <input type="checkbox" disabled /> Summary
 
- Local Storage
+  <input type="checkbox" disabled checked/> Local Storage
 
- Database
+  <input type="checkbox" disabled /> Database
 
- PWA
-
- Push Notification
-
+  <input type="checkbox" disabled /> PWA
+  
+  <input type="checkbox" disabled /> Push Notification
