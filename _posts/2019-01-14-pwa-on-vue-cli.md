@@ -12,7 +12,7 @@ chrome://inspect/#service-workers
 
 ## PWA 초기화
 
-Vue CLI 3 을 사용하면 프로젝트를 생성하면서 ![Select PWA](/img/2019-01-17-19-09-04.png)
+Vue CLI 3 을 사용하면 프로젝트를 생성하면서 ![Select PWA in CLI](/img/2019-01-17-19-09-04.png)
 
 
 ## Vue CLI 3에서 PWA 구조
