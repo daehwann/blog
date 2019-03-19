@@ -4,9 +4,9 @@ permalink:           pretty
 # Setup
 title:               Daehwan's blog
 # tagline:             The Jekyll Butler
-url:                 http://daehwann.github.io
+url:                 https://blog.daehwan.dev
 # paginate:            1
-baseurl:             "/blog"
+#baseurl:             "/blog"
 
 # Assets
 #
