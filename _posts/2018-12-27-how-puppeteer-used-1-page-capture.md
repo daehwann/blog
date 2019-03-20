@@ -22,7 +22,7 @@ tags: [Puppeteer, PageToPDF, Screenshot]
 
 Puppeteer 는 Node 라이브러리이고 아래의 개념이 class로 구현되어 있다.
 
-![Puppeteer Overview]({{site.baseurl}}/public/img/puppeteer_overview.jpg)
+![Puppeteer Overview](/public/img/puppeteer_overview.jpg)
 
 - `Puppeteer` DevTools Protocol을 사용하는 브라우저와 연동
 - `Browser` 여러개의 페이지를 가질 수 있는  owner.
@@ -62,9 +62,9 @@ puppeteer.launch().then(async browser => {
 
 [Gitbook](https://www.gitbook.com) 이라는 서비스가 있는데 온라인 document 를 아주 깔끔하게 보여준다. Github 과 연동해서 History관리도 정말 좋다. 아쉬운 점은 생성된 문서에 대한 Export를 JSON으로 지원하는데 재사용이 불가능한 정도다. 이럴 때 puppeteer로 생성된 온라인 문서를 PDF 로 저장하면 문서를 생성하는 사람도 완성된 문서를 전달받는 사람도 기분이 좋을것 같다. 
 
-![원본 페이지]({{site.baseurl}}/public/img/2018-12-27-19-55-23.png "원본 페이지")
+![원본 페이지](/public/img/2018-12-27-19-55-23.png "원본 페이지")
 
-![저장된 PDF]({{site.baseurl}}/public/img/2018-12-27-19-47-51.png "저장된 PDF")
+![저장된 PDF](/public/img/2018-12-27-19-47-51.png "저장된 PDF")
 
 ```javascript
 puppeteer.launch().then(async browser => {
@@ -95,7 +95,7 @@ await page.screenshot(...)
 
 스크린샷을 저장하기 전에 특정 영역을 강조하도록 하고싶었다. 불러온 페이지에서 CSS를 삽입 시킬 하여 프레임의 디자인을 약간 수정할 수 있다. 개발영역과 퍼블리싱 영역이 페이지에 해야 하는 작업을 완료했는지 확인하기 위해서 페이지를 CSS 로 수정하여 스크린샷을 찍었다. 모든 페이지를 열어서 확인하지 않고 몇몇 이미지의 눈대준 확인만으로도 작업검수가 가능했다. DOM 검수까지 확인해서 로그로 남겨도 되겠지만 예외가 많아서 그정도의 자동화보다 아직은 눈이 빠른것같다.
 
-![]({{site.baseurl}}/public/img/2018-12-27-19-37-36.png)
+![](/public/img/2018-12-27-19-37-36.png)
 
 ```javascript
 // define the page

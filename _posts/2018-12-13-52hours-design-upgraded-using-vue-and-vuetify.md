@@ -8,7 +8,7 @@ tags: [Vue, Vuetify, Javascript, Datetime]
 
 52시간 관리 페이지에 Vue 를 사용하여 개선했다.
 
-![before after]({{site.baseurl}}/public/img/2018-12-14-01-17-37.png)
+![before after](/public/img/2018-12-14-01-17-37.png)
 
 원래 첫 개선에는 너무 못생겨 보여서 디자인만 바꾸려고 했었는데, 이게 생각보다 큰 작업이었다. 이전에 잠깐 사용했었던 Vue 는 확정했었고, Material 디자인을 적용하기 위한 UI framework 를 찾았는데 Vuematerial 과 Vuetify 가 있었다. Vuematerial 은 적용해보니 CSS 가 너무 장황했다. 왜그런가 했더니 구글에서 가이드한 문서상의 CSS 방식으로 적용한것 같았다. Vuetify 는 그런 CSS 를 재해석했고 보다 쓰기쉽게 interface를 만들었다. 나같은 UI 잼병에게 적합했다. 출퇴근하면서 UI 개선했는데 제일 시간 많이 들었던 것들을 써놨다. 나중에 보고 이렇게 고생하면서 노력했던 초심을 잊지 않길.
 
@@ -39,7 +39,7 @@ new Date(`${this.date}T${this.startTime}+09:00`)
 전에 angular 때도 그랬던거 같은데 framework를 도입하면서 전체적인 이해를 하고 구축을 시작해야 하는데, 시간상, 여건상, 귀찮아서 일단 키보드 부터 두드린다. Vue 가 그나마 이해하기 쉬운 구조라서 한페이지는 많들었으나 확장이나 데이터 전송, 저장 등을 생각하면 이런 기본 개념부터 익혀야 되겠다. 
 
 'emit'은 영어공부 하면서 외운적이 없는 단어다. 의미가 '방출하다' 라는데 `$emit`이 하는게 딱 그 의미다. [참고한 문서](https://vuejs.org/v2/guide/components.html#Using-v-model-on-Components) 에서는 컴포넌트를 하나 선언하고 거기에 `<input>` 을 넣었다. 그래서 이걸 생각해보면
-![component diagram]({{site.baseurl}}/public/img/2018-12-14-08-07-07.png)
+![component diagram](/public/img/2018-12-14-08-07-07.png)
 일을 시켰으면 확실하게 위임을 하는거고, 보고를 할때는 필요한 내용만 절차에 맞게 제일 상위까지 하는거다. 헷갈렸던 내용은 `value` 와 `input` 이었는데 이게 기본으로 선언되어 있다는거다. `value` 는 `input`의 `value`에 'bind' 되었기 때문에 계속 지켜 보고 있고 `input`은 HTML의 기본 이벤트인데 이게 발생하면 상위에도 알려준다.
 
 내가 정의한 컴포넌트는 Vuetify 의 Timepicker 였는데 출근과 퇴근 두가지 시간이 필요해서 `v-time-picker`와 접근성 태그를 컴포넌트로 변경했다.
@@ -60,7 +60,7 @@ new Date(`${this.date}T${this.startTime}+09:00`)
 아직 헷갈리는게 `$emit`을 `v-text-field`에 추가하면 상위로 전달이 안되고 `v-menu`에 넣으니까 정상적으로 작동한다. 왜 그런지는 아직 해결 못해서 다시 알아봐야겠다.
 
 Vuetify API
-![Vuetify Time picker API]({{site.baseurl}}/public/img/2018-12-14-12-43-16.png "Vuetify Timepicker api")
+![Vuetify Time picker API](/public/img/2018-12-14-12-43-16.png "Vuetify Timepicker api")
 
 ## data, computed, watched and prop
 

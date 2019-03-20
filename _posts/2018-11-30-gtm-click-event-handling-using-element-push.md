@@ -8,7 +8,7 @@ tags: [GoogleTagManager, AnalyticsTagging]
 
 ## 문제: Javascript 를 통해서 수행되는 이벤트
 
-![div에 바인딩 된 onclick 이벤트]({{site.baseurl}}/public/img/2018-12-11-19-33-57.png)
+![div에 바인딩 된 onclick 이벤트](/public/img/2018-12-11-19-33-57.png)
 
 GTM 에서 선언된 `Click URL`, `Click Text`e 등의 변수를 사용하기 위해서는 사용자가 클릭한 element가 `<a>` 태그여야만 한다. `<a>`에 입력된 `href` 값을 가져와서 각가의 변수를 세팅하는 방식이다. 그런데 사이트에서 a의 상위 변수에 onclick 이벤트가 삽입되어 있는 경우 GTM 보다 onclick 이 먼저 실행되게 된다. `gtm.linkClick` 이벤트는 발생되지 않으며, `Just Link` trigger 도 사용할 수 없다. 페이지는 onclick 에서 명령하는 location.href 의 변경에 따라 이동 된다.
 
@@ -18,7 +18,7 @@ GTM 에서 선언된 `Click URL`, `Click Text`e 등의 변수를 사용하기 �
 
 ## 해결: GTM 에서 실제 링크로 이벤트 다시 생성
 
-![실제 링크 경로 찾기]({{site.baseurl}}/public/img/2018-12-11-19-46-54.png)
+![실제 링크 경로 찾기](/public/img/2018-12-11-19-46-54.png)
 `<a>` 와 클릭한 `div`의 상위에 있는 parent element에서 a를 다시 찾는다. closest를 사용하는데 IE에서는 작동하지 않을 수도 있으니 jQuery를 쓰거나 parentElement 의 재귀를 통해서 부모를 찾아야 한다.
 
 ### Trigger

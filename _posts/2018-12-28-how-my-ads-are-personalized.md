@@ -8,5 +8,5 @@ tags: [GoogleAds, Personalization]
 
 [Google Ad Settings](https://adssettings.google.com/authenticated)
 
-![My Google Ads Setting]({{site.baseurl}}/public\img\my-google-personalized-information.png)
+![My Google Ads Setting](/public\img\my-google-personalized-information.png)
 

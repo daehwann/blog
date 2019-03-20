@@ -21,11 +21,11 @@ PWA 를 시작하기 전에 관련 문서를 몇개 읽어보고 [구글에서 �
 
 Vue CLI 에서는 기본적으로는 [구글 예제](https://developers.google.com/web/fundamentals/codelabs/your-first-pwapp/?hl=ko)애서 처럼 Servie Worder 를 직접 구현하지 않는다. 일단 프로젝트가 생성되면, src/registerServiceWorker.js 라는 파일을 볼 수 있다.
 
-![]({{site.baseurl}}/public/img/2019-01-18-08-09-33.png)
+![](/public/img/2019-01-18-08-09-33.png)
 
 이 파일에서는 자동으로 Service Worker 파일을 생성하고 (가능할 경우) 등록시켜준다. 그러면 여기에 등록되어지는 `service-worker.js`는 어디에 있나.`npm run build`로 프로젝트를 build하면 자동으로 service-worker.js 가 생성된다.
 
-![]({{site.baseurl}}/public/img/2019-01-18-08-15-14.png)
+![](/public/img/2019-01-18-08-15-14.png)
 
 [Vue CLI PWA Plug-in](https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-pwa)에 의해서 service-worker.js가 생성되는데 상세 설정을 `vue.config.js` 할 수 있다.
 
@@ -35,7 +35,7 @@ Vue CLI 에서는 기본적으로는 [구글 예제](https://developers.google.c
 
 build하여 생성된 `service-worker.js`파일을 열어보면 자동 생성된 코드가 보인다. ESLint에서는 제대로 소스를 인식 못해서 빨갛게 됐는데 꽤 맘에 안든다. 
 
-![]({{site.baseurl}}/public/img/2019-01-22-19-10-11.png)
+![](/public/img/2019-01-22-19-10-11.png)
 
 피일안에 workbox라는 객체가 보인다. 얘는 뭘하는 걸까.
 

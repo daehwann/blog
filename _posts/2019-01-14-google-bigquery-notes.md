@@ -43,6 +43,6 @@ date 테이블은 기본적으로 가져가게끔 되어 있어서 특정 날짜
 ## Google Sheet 에서  데이터 가져오기
 외부에서 공유하고 사용하기 가장 편리한 건 역시 Google Sheet다. 근데 Dataprep에서 연동하려고 하니 BigQuery밖에 없는것 같다. (Google Clould Storage로의 이관은 안된다고 한다.) 로 데이터를 넣어주면 bigquery에서 불러오려고 한다. 
 
-![]({{site.baseurl}}/public/img/2019-01-23-10-31-30.png)
+![](/public/img/2019-01-23-10-31-30.png)
 
 [쿼리예약](https://cloud.google.com/bigquery/docs/scheduling-queries)
